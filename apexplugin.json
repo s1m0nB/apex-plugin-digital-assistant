@@ -1,0 +1,33 @@
+{
+  "name" : "Digital Assistant",
+  "version" : "1.1",
+  "description" : "Plugin for using Oracle Digital Assistant within your APEX application",
+  "keywords" : ["oracle", "apex", "plugin","chatbot", "region", "digital assistant"],
+  "homepage" : "https://github.com/s1m0nB/apex-plugin-digital-assistant",
+  "bugs" : {
+    "url" : "https://github.com/s1m0nB/apex-plugin-digital-assistant/issues",
+    "email" : "simon.boorsma@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Simon Boorsma",
+    "email" : "simon.boorsma@gmail.com",
+    "url" : "https://eocoe.blogspot.com/TODO"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/s1m0nB/apex-plugin-digital-assistant"
+  },
+ "oracle" : {
+    "versions": ["11.2.0.1", "12.1.0.1", "12.2.0.1"],
+    "apex" : {
+      "versions": ["18.1.0", "18.2.0"],
+      "plugin" : {
+        "internalName" : "SBA.APEX.CHATBOT",
+        "type" : "region",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=35723:30",
+        "previewImage" : "TODO"
+      }
+    }
+  }
+}
