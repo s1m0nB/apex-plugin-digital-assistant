@@ -1,7 +1,7 @@
 APEX PlugIn: Digital Assistant
 =========================
 
-This plugin is a region plugin for use in Oracle Application Express. The region plugin will load the Oracle Digital Assistant Widget for chatbot functionality in your APEX application. For use of this plugin you will need an Oracle Digital Assistant on the Oracle Cloud Service and enable a web channel for using your Digital Assistant in your APEX application. The plugin uses the OMCe Bots Client SDK for JavaScript and is preconfigured to run within apex, using plugin files for the all the sdk's javascript files. So no need to configure the sdk yourself and simply import this plugin.
+This is a region plugin for use in Oracle Application Express. The region plugin will add the Oracle Digital Assistant Widget for chatbot functionality to your APEX application. For use of this plugin you will need an Oracle Digital Assistant on the Oracle Cloud Service and enable a web channel for using your Digital Assistant in your APEX application. The plugin uses the OMCe Bots Client SDK for JavaScript and is preconfigured to run within apex, using plugin files for the all the sdk's javascript files. So no need to configure the sdk yourself and simply import this plugin.
 
 ## usage
 Download the latest PlugIn SQL File from this repository and import it in your APEX application.
