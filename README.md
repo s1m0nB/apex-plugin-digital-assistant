@@ -7,21 +7,23 @@ This is a region plugin for use in Oracle Application Express. The region plugin
 Download the latest PlugIn SQL File from this repository and import it in your APEX application.
 
 The plugin will display the chatbot widget in the lower right corner. And offers the chat functionality in your apex application for use with your Oracle Digital Assistant. 
+
 The region plugin has multiple (optional) attributes defined;
 
-  appId - Required unique reference to the Oracle Digital Assitant Web Channel
-  name - Required name of your digital assistant to be displayed in the widget
-  logo - Optional logo or avatar image of your digital assustant to use in the widget
-  buttonIcon - Optional icon to change the widgets button icon in the lower right corner
-  user - Optional reference to the APEX item containing the username
-  userProperties - Optional JSON String for aditional user properties for use in Oracle Digital Assistant
-  locale - Optional sopecify a Locale (en-US) for localization of the chatbot
-  customText - Optional JSON String for customizing systems text used in the widget
-  customColors - Optional JSON String for customizing the look and colors used in the widget
-  enableSound - YES|NO : indicator to enable sound notifications
-  clearCache - YES|NO : indicator to clear the chat localcache on every page load
-  imageUpload - YES|NO : to enable image and document upload functions in the widget
-  The customText and customColors are JSON String attributes which have a predefined list of entries. 
+* appId - Required unique reference to the Oracle Digital Assitant Web Channel
+* name - Required name of your digital assistant to be displayed in the widget
+* logo - Optional logo or avatar image of your digital assustant to use in the widget
+* buttonIcon - Optional icon to change the widgets button icon in the lower right corner
+* user - Optional reference to the APEX item containing the username
+* userProperties - Optional JSON String for aditional user properties for use in Oracle Digital Assistant
+* locale - Optional sopecify a Locale (en-US) for localization of the chatbot
+* customText - Optional JSON String for customizing systems text used in the widget
+* customColors - Optional JSON String for customizing the look and colors used in the widget
+* enableSound - YES|NO : indicator to enable sound notifications
+* clearCache - YES|NO : indicator to clear the chat localcache on every page load
+* imageUpload - YES|NO : to enable image and document upload functions in the widget
+
+The customText and customColors are JSON String attributes which have a predefined list of entries. 
 
 ## references
 
