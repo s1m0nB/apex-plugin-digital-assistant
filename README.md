@@ -27,6 +27,8 @@ The customText and customColors are JSON String attributes which have a predefin
 
 ## references
 
+https://eocoe.blogspot.com/2018/12/apex-plugin-for-digital-assistant.html
+
 https://apex.oracle.com/pls/apex/f?p=35723:30
 
 https://www.oracle.com/technetwork/topics/cloud/downloads/mobile-suite-3636471.html
