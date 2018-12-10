@@ -1,7 +1,7 @@
 APEX PlugIn: Digital Assistant
 =========================
 
-This is a region plugin for use in Oracle Application Express. The region plugin will add the Oracle Digital Assistant Widget for chatbot functionality to your APEX application. For use of this plugin you will need an Oracle Digital Assistant on the Oracle Cloud Service and enable a web channel for using your Digital Assistant in your APEX application. The plugin uses the OMCe Bots Client SDK for JavaScript and is preconfigured to run within apex, using plugin files for the all the sdk's javascript files. So no need to configure the sdk yourself and simply import this plugin.
+This is a region plugin for use in Oracle Application Express. The region plugin will add the Oracle Digital Assistant widget for chatbot functionality to your APEX application. For use of this plugin you will need an Oracle Digital Assistant on the Oracle Cloud Service and enable a web channel for using your Digital Assistant in your APEX application. The plugin uses the OMCe Bots Client SDK for JavaScript and is preconfigured to run within apex, using plugin files for the all the sdk's javascript files. So no need to configure the sdk yourself, instead just simply import and configure this plugin.
 
 ## usage
 Download the latest PlugIn SQL File from this repository and import it in your APEX application.
@@ -12,11 +12,11 @@ The region plugin has multiple (optional) attributes defined;
 
 * appId - Required unique reference to the Oracle Digital Assitant Web Channel
 * name - Required name of your digital assistant to be displayed in the widget
-* logo - Optional logo or avatar image of your digital assustant to use in the widget
+* logo - Optional logo or avatar image of your digital assistant to use in the widget
 * buttonIcon - Optional icon to change the widgets button icon in the lower right corner
 * user - Optional reference to the APEX item containing the username
-* userProperties - Optional JSON String for aditional user properties for use in Oracle Digital Assistant
-* locale - Optional sopecify a Locale (en-US) for localization of the chatbot
+* userProperties - Optional JSON String for additional user properties for use in Oracle Digital Assistant
+* locale - Optional sopecify a locale (eg. en-US) for localization of the chatbot
 * customText - Optional JSON String for customizing systems text used in the widget
 * customColors - Optional JSON String for customizing the look and colors used in the widget
 * enableSound - YES|NO : indicator to enable sound notifications
@@ -34,5 +34,3 @@ https://apex.oracle.com/pls/apex/f?p=35723:30
 https://www.oracle.com/technetwork/topics/cloud/downloads/mobile-suite-3636471.html
 
 https://cloud.oracle.com/digital-assistant
-
-
