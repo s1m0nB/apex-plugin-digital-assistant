@@ -1,4 +1,4 @@
-[![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)](https://github.com/Dani3lSun/apex-github-badges)
+[![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)](https://eocoe.blogspot.com/2018/12/apex-plugin-for-digital-assistant.html)
 APEX PlugIn: SBA.APEX.CHATBOT
 =========================
 
